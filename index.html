@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="css/imports.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <!-- Barra de navegação -->
+        <nav class="navbar">
+            <img src="img/logo-dark.png" alt="logo" class="logo">
+            <ul id="nav_list">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Sobre</a>
+                </li>
+            </ul>
+
+            <a href="#" class="login-link">Fazer contato</a>
+        </nav>
+    </header>
+
+    <!-- Título da página -->
+    <section class="page-title">
+        <h2>Contatos</h2>
+        <h1>Nossos contatos</h1>
+        <p>Tem algum projeto em mente ou precisa de uma solução sob medida? Nossa equipe está pronta para ajuda r você a dar o próximo passo com criatividade, agilidade e foco nos resultados. Vamos transformar as suas ideias em realidade!</p>
+    </section>
+
+    <!-- Contêiner principal -->
+    <main id="main_container">
+        <section id="contacts_container">
+            <h3>Entre em contato</h3>
+            <p>Preencha o formulário ao lado e entraremos em contato com você o mais rápido possível.</p>
+            
+            <!-- Cards de contato -->
+             <div id="cards_container">
+                <!-- Telefone -->
+                <a href="tel:+5531999999999" target="_blank" class="contact-card phone">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="card-infos">
+                        <p>Telefone</p>
+                        <span>(31) 99999-9999</span>
+                    </div>
+                </a>
+
+                <!-- Localização -->
+                <a href="https://www.google.com/maps/place/Arena+MRV/@-19.9300061,-44.0164651,17z/data=!3m1!4b1!4m6!3m5!1s0xa697401e4ccac9:0x74bdb9ad5e521b8d!8m2!3d-19.9300061!4d-44.0138902!16s%2Fg%2F11fl0gz5bn?entry=ttu&g_ep=EgoyMDI1MDkxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="contact-card location">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="card-infos">
+                        <p>Localização</p>
+                        <span>Rua Cristina Maria de Assis, 202 - Califórnia, Belo Horizonte - MG, 30855-440</span>
+                    </div>
+                </a>
+
+                <!-- E-mail -->
+                <a href="mailto:email@gmail.com" target="_blank" class="contact-card email">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="card-infos">
+                        <p>E-mail</p>
+                        <span>email@email.com</span>
+                    </div>
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://api.whatsapp.com/send?phone=5531999999999" target="_blank" class="contact-card whatsapp">
+                    <div class="card-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div class="card-infos">
+                        <p>WhatsApp</p>
+                        <span>(31) 99999-9999</span>
+                    </div>
+                </a>
+
+             </div>
+
+             <!-- Cards de redes sociais -->
+              <h4>Nos siga nas redes sociais</h4>
+              <div id="social_media_icons">
+                <!-- Twitter -->
+                <a href="#" class="icon-link twitter">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <!-- Facebook -->
+                <a href="#" class="icon-link facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="#" class="icon-link linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a href="#" class="icon-link instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+
+        </section>
+
+        <section id="contact_form_container">
+            <h3>Contato</h3>
+            <!-- Formulário de contato -->
+            <form method="post" id="contact_form">
+                <!-- Nome -->
+                <div class="input-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <!-- E-mail -->
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+
+                <!-- Assunto -->
+                <div class="input-group">
+                    <label for="subject">Assunto</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+
+                <!-- Mensagem -->
+                <div class="input-group">
+                    <label for="message">Mensagem</label>
+                    <textarea type="text" id="message" name="message" required rows="5"></textarea>
+                </div>
+
+                <!-- Botões -->
+                <button type="submit">Enviar mensagem</button>
+
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <img src="img/logo-light.png" alt="logo" class="footer-logo">
+        <div id="footer_link_content">
+            <ul class="footer-list">
+                <li>
+                    <h3 class="list-title">Blog</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Tecnologia</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Programação</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Design</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3 class="list-title">Produtos</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">App</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Automação</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Cloud</a>
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
